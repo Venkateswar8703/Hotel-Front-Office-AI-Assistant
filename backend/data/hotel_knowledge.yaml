@@ -1,0 +1,721 @@
+exported_at: '2026-10-01T07:47:26.179127+00:00'
+total_documents: 1
+knowledge_by_category:
+  Reservations And Stay:
+  - question: What room types are available?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: What rooms are available for my dates?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Is a room available tonight?
+    answer: This requires current information. The AI should check the hotel's live
+      system or an appropriate real-time service before giving you a definitive answer.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Is a room available tomorrow?
+    answer: This requires current information. The AI should check the hotel's live
+      system or an appropriate real-time service before giving you a definitive answer.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I book a room for one night?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I book a room for several nights?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: How can I book a room?
+    answer: Guests can book a room through the hotel's website, phone, or supported
+      online booking platforms.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I book through the hotel website?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I book by phone?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I book through an online travel agency?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I book a room for someone else?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I make a group booking?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I make a corporate booking?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do you offer long-stay bookings?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do you have special offers?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system. Hotel AI Concierge – FAQ Question Bank with Prototype
+      Answers Page 2
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do you have weekend offers?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do you offer corporate rates?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do you offer member rates?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a specific room?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a high-floor room?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a quiet room?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a room near the elevator?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request connecting rooms?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request adjoining rooms?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a room with a particular view?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a king bed?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request twin beds?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request an extra bed?
+    answer: Extra beds may be available for selected room types, subject to availability
+      and applicable charges.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a baby cot or crib?
+    answer: The assistant can provide the hotel's approved family and child facilities
+      and record requests such as a cot, high chair, or connecting room, subject to
+      availability.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I modify my reservation?
+    answer: Yes. Reservations can generally be modified based on room availability
+      and the hotel's booking policy.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I change my check-in date?
+    answer: The reservation can generally be modified subject to availability and
+      the booking's applicable terms. The assistant should retrieve the booking before
+      confirming the change.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I change my check-out date?
+    answer: The reservation can generally be modified subject to availability and
+      the booking's applicable terms. The assistant should retrieve the booking before
+      confirming the change.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I change the number of guests?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I change my room type?
+    answer: The reservation can generally be modified subject to availability and
+      the booking's applicable terms. The assistant should retrieve the booking before
+      confirming the change. Hotel AI Concierge – FAQ Question Bank with Prototype
+      Answers Page 3
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I change the guest name on my booking?
+    answer: The reservation can generally be modified subject to availability and
+      the booking's applicable terms. The assistant should retrieve the booking before
+      confirming the change.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I cancel my reservation?
+    answer: Yes. Cancellation is subject to the cancellation policy associated with
+      the booking.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: What is the cancellation policy?
+    answer: Cancellation is subject to the cancellation terms associated with the
+      reservation. The assistant should retrieve the booking details and show the
+      applicable policy before confirming cancellation.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Is there a cancellation fee?
+    answer: Cancellation is subject to the cancellation terms associated with the
+      reservation. The assistant should retrieve the booking details and show the
+      applicable policy before confirming cancellation.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: What happens if I do not arrive?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I extend my stay?
+    answer: Yes, subject to room availability. Additional charges may apply.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I shorten my stay?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I make a last-minute booking?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I book without a credit card?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do I need to guarantee my booking?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Is a deposit required?
+    answer: The assistant can explain the applicable billing process and retrieve
+      reservation or folio information when connected to the hotel's billing system.
+      Charges and refunds should be confirmed from the actual guest folio.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I check my reservation status?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: How do I get my booking confirmation?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: I did not receive my confirmation email. What should I do?
+    answer: Certainly. I can create a personalized recommendation based on your available
+      time, interests, budget, group type, weather, opening hours, and travel time.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I book multiple rooms?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I reserve rooms for a wedding or event?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I book a room for a family?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can children stay in the room?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: What is the maximum occupancy of a room?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room. Hotel AI Concierge – FAQ Question Bank with Prototype
+      Answers Page 4
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I add another guest after booking?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions. Pre-Arrival
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I contact the hotel before arrival?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request early check-in before I arrive?
+    answer: Early check-in may be available depending on room availability. Additional
+      charges may apply.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a specific room before arrival?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I send luggage to the hotel before arrival?
+    answer: Certainly. I can help submit this request to the relevant hotel team.
+      Please provide your room number and any preferred timing.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I send a package to the hotel before arrival?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can the hotel receive a delivery for me?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I arrange airport pickup before arrival?
+    answer: Certainly. I can help arrange transportation. Please provide your destination,
+      pickup time, number of passengers, and any vehicle requirements.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I arrange a taxi before arrival?
+    answer: Certainly. I can help arrange transportation. Please provide your destination,
+      pickup time, number of passengers, and any vehicle requirements.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I arrange a special occasion setup before arrival?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I arrange flowers before arrival?
+    answer: Certainly. The hotel can record special-occasion requests and coordinate
+      them with the appropriate team. Please provide the occasion, date, room number
+      or reservation, and any specific requirements.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I arrange a cake before arrival?
+    answer: Certainly. The hotel can record special-occasion requests and coordinate
+      them with the appropriate team. Please provide the occasion, date, room number
+      or reservation, and any specific requirements.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I arrange chocolates before arrival?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a birthday decoration?
+    answer: Certainly. The hotel can record special-occasion requests and coordinate
+      them with the appropriate team. Please provide the occasion, date, room number
+      or reservation, and any specific requirements.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a honeymoon setup?
+    answer: Certainly. The hotel can record special-occasion requests and coordinate
+      them with the appropriate team. Please provide the occasion, date, room number
+      or reservation, and any specific requirements.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request an anniversary setup?
+    answer: Certainly. The hotel can record special-occasion requests and coordinate
+      them with the appropriate team. Please provide the occasion, date, room number
+      or reservation, and any specific requirements.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a welcome amenity?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I tell the hotel about dietary requirements before arrival?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I tell the hotel about accessibility requirements before arrival?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room. Hotel AI Concierge – FAQ Question Bank with Prototype
+      Answers Page 5
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: What documents should I prepare before arrival?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: How do I reach the hotel from the airport?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Where is the hotel entrance?
+    answer: The assistant can provide the hotel's current location or internal directions
+      using the approved hotel map and property information.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Where can I park when I arrive?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required. Reservation Edge Cases
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I make a reservation for only a few hours?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I book a day-use room?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I reserve a room without knowing the guest's exact arrival time?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I change the primary guest after booking?
+    answer: The reservation can generally be modified subject to availability and
+      the booking's applicable terms. The assistant should retrieve the booking before
+      confirming the change.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I transfer my reservation to another person?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I combine two consecutive reservations?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request the same room for two separate bookings?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I add another night to an existing reservation?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I remove one night from my reservation?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I change from one room to two rooms?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I change from two rooms to one room?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I change the number of adults after booking?
+    answer: 'Hotel AI Concierge – FAQ Question Bank with Prototype Answers Page 33
+      Answer: The reservation can generally be modified subject to availability and
+      the booking''s applicable terms. The assistant should retrieve the booking before
+      confirming the change.'
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I change the number of children after booking?
+    answer: The reservation can generally be modified subject to availability and
+      the booking's applicable terms. The assistant should retrieve the booking before
+      confirming the change.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I add a child to my reservation?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I add an infant to my reservation?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a baby cot after booking?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request an extra bed after booking?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request an accessible room after booking?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a non-smoking room after booking?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a specific floor after booking?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request an early arrival time?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I update my estimated arrival time?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I provide special instructions for my booking?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I add a note to my reservation?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a quiet room because I have a meeting?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request rooms close together?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request rooms on the same floor?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I reserve rooms for a tour group?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I reserve rooms for a school group?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I reserve rooms for a wedding party?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions. Hotel AI Concierge – FAQ Question Bank with Prototype Answers
+      Page 34
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I reserve rooms for a corporate team?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I make a reservation for an extended family?
+    answer: A stay extension is subject to room availability and applicable charges.
+      The assistant should check the reservation system before confirming the extension.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I book a room for a guest who will arrive before me?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I pay for another guest's reservation?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I make a reservation with a different billing address?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I receive a separate confirmation for each room?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I receive one invoice for multiple rooms?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I request a booking confirmation again?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I check whether my special request was added to the booking?
+    answer: The assistant can help with the reservation. It should check the hotel's
+      approved booking system for current room availability, rates, and applicable
+      booking conditions.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: What happens if my requested room type is unavailable?
+    answer: The available room features depend on the selected room category. The
+      assistant should retrieve the hotel's approved room and amenity information
+      for the specific room. Rate, Price & Offer Questions
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: What determines the room price?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Why is the room price different on different dates?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Why does the price change when I add another guest?
+    answer: The reservation can generally be modified subject to availability and
+      the booking's applicable terms. The assistant should retrieve the booking before
+      confirming the change.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Are taxes included in the displayed price?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Are there additional fees?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Is breakfast included in this rate?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Is parking included in this rate?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Is Wi-Fi included in the room rate?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system. Hotel AI Concierge – FAQ Question Bank with Prototype
+      Answers Page 35
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Is there a refundable rate?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Is there a non-refundable rate?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: What is the difference between refundable and non-refundable rates?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I get a lower rate if I stay longer?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do you offer government rates?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do you offer group rates?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do you offer weekend rates?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do you offer seasonal offers?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do you offer member discounts?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do you offer advance-purchase rates?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Do you offer last-minute rates?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I use a promotional code?
+    answer: The assistant can provide the answer from the hotel's approved knowledge
+      base or route the request to the appropriate hotel team when an action or live
+      check is required.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Where can I find current hotel offers?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can two offers be combined?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I apply a discount after booking?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Can I get a price adjustment if the rate changes?
+    answer: The reservation can generally be modified subject to availability and
+      the booking's applicable terms. The assistant should retrieve the booking before
+      confirming the change.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Why is the same room showing different prices?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Is the displayed price per room or per person?
+    answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel's
+      approved booking system.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Does the price include all taxes?
+    answer: 'Hotel AI Concierge – FAQ Question Bank with Prototype Answers Page 36
+      Answer: Rates and offers can vary by dates, room type, occupancy, and booking
+      conditions. The assistant should retrieve the current rate from the hotel''s
+      approved booking system.'
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Are there additional charges for children?
+    answer: The assistant can provide the hotel's approved family and child facilities
+      and record requests such as a cot, high chair, or connecting room, subject to
+      availability.
+    document: Doc_1_-_Reservations_and_Stay.pdf
+  - question: Are there additional charges for extra beds?
+    answer: Extra beds may be available for selected room types, subject to availability
+      and applicable charges.
+    document: Doc_1_-_Reservations_and_Stay.pdf

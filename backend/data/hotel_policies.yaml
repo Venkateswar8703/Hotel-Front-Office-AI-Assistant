@@ -1,0 +1,91 @@
+# ==============================================================================
+# Grand Horizon Hotel & Suites — Standard Operating Procedures & Knowledge Rules
+# ==============================================================================
+
+hotel_info:
+  name: "Grand Horizon Hotel & Suites"
+  brand: "Luxury Front Office Operations"
+  website: "https://grandhorizonhotel.com"
+  front_desk_phone: "+1-800-555-4473"
+  emergency_extension: "0"
+
+front_desk_operations:
+  hours: "24/7 (Always Open)"
+  check_in_time: "3:00 PM"
+  check_out_time: "12:00 PM (Noon)"
+  early_check_in:
+    policy: "Subject to room availability upon arrival. Complimentary after 1:00 PM if clean rooms exist."
+    guaranteed_fee: "$50 flat fee before 1:00 PM"
+  late_check_out:
+    policy: "Complimentary up to 1:00 PM upon prior request to reception. 50% room rate between 1:00 PM and 6:00 PM. Full rate after 6:00 PM."
+  accepted_identification:
+    - "Valid Passport"
+    - "Government-issued Driver's License"
+    - "State / National ID card"
+  payment_methods:
+    accepted:
+      - "Visa"
+      - "MasterCard"
+      - "American Express"
+      - "Discover"
+      - "Cash with valid credit card on file for incidentals"
+    rejected:
+      - "Cryptocurrency (Bitcoin, Ethereum, etc.)"
+      - "Commodities / Barter"
+      - "Personal Checks"
+  incidentals_deposit: "$100 per night hold on credit card, released at checkout."
+
+guest_services:
+  luggage_storage:
+    available: true
+    fee: "Complimentary"
+    hours: "24/7 at Bell Desk / Reception"
+  wifi:
+    network_name: "GrandHorizon_Guest"
+    password: "No password required (One-click portal login with Room Number + Last Name)"
+    speed: "High-Speed 500 Mbps (Complimentary throughout property)"
+  parking:
+    valet: "$45 per night with unlimited in/out privileges"
+    self_parking: "$30 per night in secure underground garage"
+    ev_charging: "Complimentary Level-2 Tesla & Universal EV charging stations"
+
+amenities:
+  swimming_pool:
+    location: "4th Floor Rooftop Deck"
+    hours: "6:00 AM – 10:00 PM daily"
+    towel_service: "Complimentary at pool desk"
+    heated: true
+  fitness_center:
+    location: "3rd Floor West Wing"
+    hours: "24 Hours (Keycard Access)"
+    equipment: "Cardio, free weights, Peloton bikes, yoga studio"
+  business_center:
+    location: "Lobby Level East"
+    hours: "24 Hours"
+    services: "Complimentary printing, scanning, high-speed workstations"
+
+dining:
+  breakfast:
+    venue: "The Horizon Bistro (Lobby Level)"
+    weekday_hours: "6:30 AM – 10:30 AM"
+    weekend_hours: "7:00 AM – 11:00 AM"
+    style: "International Buffet & À la carte"
+  room_service:
+    hours: "24 Hours"
+    dial_code: "Extension 2400 or press 'Dining' on in-room phone"
+  rooftop_lounge:
+    venue: "Skyline Lounge (22nd Floor)"
+    hours: "5:00 PM – 1:00 AM (Adults 21+ after 9:00 PM)"
+
+housekeeping:
+  daily_service_hours: "8:00 AM – 4:30 PM"
+  turndown_service: "6:00 PM – 8:30 PM upon request"
+  standard_delivery_time: "10–15 minutes for towels, extra pillows, dental kits, and toiletries"
+  baby_cribs_and_rollaways:
+    cribs: "Complimentary upon request (Subject to availability)"
+    rollaway_beds: "$35 per night (Allowed in King and Executive Suites)"
+
+safety_and_security:
+  smoking_policy: "100% Non-Smoking property. $250 deep-cleaning fee for violations."
+  pet_policy: "Service animals welcome with documentation. Pets up to 40 lbs permitted in designated Pet-Friendly suites ($75 non-refundable cleaning fee per stay)."
+  duty_manager: "Available 24/7 via Front Desk for escalations, emergencies, or policy overrides."

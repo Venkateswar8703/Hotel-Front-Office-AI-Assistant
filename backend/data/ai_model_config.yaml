@@ -1,0 +1,78 @@
+# ==============================================================================
+# Front Office AI Copilot — AI Models & System Settings Configuration
+# ==============================================================================
+
+system_info:
+  application: "Hotel Front Office AI Copilot"
+  environment: "development"
+  host: "0.0.0.0"
+  port: 8000
+  allowed_origins:
+    - "http://localhost:5173"
+    - "http://localhost:3000"
+
+active_llm:
+  provider: "bedrock" # Options: bedrock | gemini | mock
+  model_id: "amazon.nova-micro-v1:0"
+  model_name: "Amazon Nova Micro"
+  provider_vendor: "Amazon Web Services (AWS)"
+  region: "us-east-1"
+  parameters:
+    temperature: 0.3
+    max_tokens: 1024
+    top_p: 0.9
+  pricing_tier:
+    input_per_1k_tokens: "$0.000035"
+    output_per_1k_tokens: "$0.00014"
+  role: "Generates grounded, professional front-desk responses strictly using verified policy context."
+
+alternative_llm_options:
+  meta_llama:
+    model_id: "meta.llama3-8b-instruct-v1:0"
+    provider: "bedrock"
+    temperature: 0.3
+  mistral:
+    model_id: "mistral.mistral-7b-instruct-v0:2"
+    provider: "bedrock"
+    temperature: 0.3
+  google_gemini:
+    model_id: "gemini-1.5-pro"
+    provider: "gemini"
+    temperature: 0.3
+
+embeddings:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  dimensions: 384
+  provider: "Hugging Face / Local CPU"
+  mode: "offline"
+  metric: "cosine_similarity"
+  role: "Converts guest queries and document chunks into dense semantic vectors."
+
+vector_database:
+  engine: "ChromaDB"
+  persist_directory: "./chroma_db"
+  collection_name: "hotel_faqs"
+  storage_type: "Embedded SQLite + HNSW Binary Index"
+
+rag_pipeline_settings:
+  top_k: 5
+  similarity_threshold: 0.40
+  zero_context_circuit_breaker: true
+  fallback_message: "I could not find verified hotel policy information on this in the knowledge base. Please check the property management system (PMS) or consult the Duty Manager."
+  ungrounded_entity_bouncer:
+    enabled: true
+    blocked_entities:
+      - "casino"
+      - "skating"
+      - "bowling"
+      - "submarine"
+      - "ferrari"
+      - "shisha"
+      - "tiger"
+      - "crypto"
+      - "bitcoin"
+
+observability:
+  langchain_tracing_v2: true
+  langchain_endpoint: "https://api.smith.langchain.com"
+  langchain_project: "hotel-ai-concierge"

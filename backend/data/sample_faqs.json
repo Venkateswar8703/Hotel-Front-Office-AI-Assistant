@@ -1,0 +1,586 @@
+[
+  {
+    "category": "Check-In / Check-Out",
+    "question": "What time is check-in?",
+    "answer": "Standard check-in time is 3:00 PM. Early check-in is subject to availability and may be arranged by contacting the front desk. Complimentary luggage storage is available if you arrive before your room is ready.",
+    "intent": "CHECK_IN_CHECKOUT",
+    "entities": ["check_in_time"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Check-In / Check-Out",
+    "question": "What time is check-out?",
+    "answer": "Standard check-out time is 12:00 PM (noon). Late check-out until 2:00 PM may be available upon request, subject to availability. Please contact the front desk or use the Hotel Concierge to make a request.",
+    "intent": "CHECK_IN_CHECKOUT",
+    "entities": ["check_out_time"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Check-In / Check-Out",
+    "question": "Can I request a late check-out?",
+    "answer": "Yes, late check-out can be requested and is subject to availability. Standard late check-out is until 2:00 PM at no charge. Requests until 4:00 PM may incur a half-day room charge. Please make your request through the concierge or front desk.",
+    "intent": "CHECK_IN_CHECKOUT",
+    "entities": ["late_checkout", "checkout_time"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Check-In / Check-Out",
+    "question": "Can I check in early?",
+    "answer": "Early check-in before 3:00 PM is subject to room availability. We recommend contacting the hotel in advance to arrange this. If your room is not yet ready, we offer complimentary luggage storage and access to our lobby facilities.",
+    "intent": "CHECK_IN_CHECKOUT",
+    "entities": ["early_checkin"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Check-In / Check-Out",
+    "question": "How do I extend my stay?",
+    "answer": "To extend your stay, please contact the front desk at least 24 hours before your scheduled check-out date, subject to availability. Our team will be happy to arrange this for you.",
+    "intent": "BOOKING",
+    "entities": ["extension", "stay"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Rooms",
+    "question": "What types of rooms are available?",
+    "answer": "We offer Standard Rooms, Deluxe Rooms, Junior Suites, and Presidential Suites. All rooms feature flat-screen TVs, complimentary Wi-Fi, premium bedding, in-room safe, minibar, and 24-hour room service. Suites additionally feature separate living areas and premium amenities.",
+    "intent": "ROOM_INFORMATION",
+    "entities": ["room_type"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Rooms",
+    "question": "Does my room have Wi-Fi?",
+    "answer": "Yes, complimentary high-speed Wi-Fi is available in all rooms and throughout the hotel. The network name is 'HotelGuest'. The password is provided on your key card envelope at check-in. For technical assistance, please call the front desk.",
+    "intent": "ROOM_INFORMATION",
+    "entities": ["wifi", "internet"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Rooms",
+    "question": "What amenities are in the room?",
+    "answer": "All rooms include: flat-screen smart TV, complimentary Wi-Fi, air conditioning, minibar, in-room safe, coffee/tea maker, hair dryer, iron and ironing board, premium bath amenities, bathrobe, slippers, and 24-hour room service. Suites include additional premium amenities.",
+    "intent": "ROOM_INFORMATION",
+    "entities": ["amenities"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Housekeeping",
+    "question": "Can I request extra towels?",
+    "answer": "Yes, you can request additional towels at any time. Simply contact housekeeping through the Hotel Concierge, press the housekeeping button on your room phone, or dial extension 3 for housekeeping. We will deliver them to your room within 15 minutes.",
+    "intent": "HOUSEKEEPING",
+    "entities": ["towels", "room_number"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Housekeeping",
+    "question": "When is housekeeping service?",
+    "answer": "Daily housekeeping service is provided between 9:00 AM and 5:00 PM. If you require service outside these hours, please contact the front desk. You can also place the 'Please Make Up Room' card on your door handle to request service.",
+    "intent": "HOUSEKEEPING",
+    "entities": ["housekeeping_hours"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Housekeeping",
+    "question": "Can I get extra pillows?",
+    "answer": "Absolutely! Additional pillows, blankets, or bedding can be requested through housekeeping by using the Hotel Concierge, calling extension 3, or contacting the front desk. We will deliver them to your room promptly.",
+    "intent": "HOUSEKEEPING",
+    "entities": ["pillows", "bedding"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Housekeeping",
+    "question": "How do I request a do not disturb?",
+    "answer": "You can activate Do Not Disturb by placing the DND card on your door handle, using the in-room DND button, or calling the front desk. Housekeeping will not enter your room while DND is active. For extended DND periods, we will contact you to arrange a convenient service time.",
+    "intent": "HOUSEKEEPING",
+    "entities": ["do_not_disturb"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Dining",
+    "question": "What time is breakfast served?",
+    "answer": "Breakfast is served daily in our main restaurant from 6:30 AM to 10:30 AM (Monday–Friday) and 7:00 AM to 11:00 AM on weekends. We offer both buffet and à la carte options. Room service breakfast is available from 6:00 AM.",
+    "intent": "DINING",
+    "entities": ["breakfast_hours"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Dining",
+    "question": "What dining options are available?",
+    "answer": "We have three dining options: The Grand Restaurant (fine dining, open for breakfast, lunch, and dinner), The Terrace Café (casual all-day dining), and The Sky Bar (cocktails and light bites, 4:00 PM–midnight). Room service is available 24 hours.",
+    "intent": "DINING",
+    "entities": ["restaurant", "dining"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Dining",
+    "question": "Is room service available 24 hours?",
+    "answer": "Yes, 24-hour room service is available for all hotel guests. Our full menu is available from 6:00 AM to midnight, with a limited menu available overnight. To order, dial extension 5 from your room phone or use the Hotel Concierge.",
+    "intent": "DINING",
+    "entities": ["room_service", "24_hours"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Dining",
+    "question": "Do you have vegetarian or vegan options?",
+    "answer": "Yes, our restaurants offer a full range of vegetarian, vegan, and gluten-free options. Please inform your server or room service when ordering. Our chef will be happy to accommodate dietary requirements. For specific allergies, please contact the restaurant directly.",
+    "intent": "DINING",
+    "entities": ["vegetarian", "vegan", "dietary"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Facilities",
+    "question": "Is there a swimming pool?",
+    "answer": "Yes, we have an outdoor rooftop swimming pool open daily from 6:00 AM to 10:00 PM. Towels are provided at the pool deck. The pool is available exclusively to hotel guests. A heated indoor pool is also available year-round.",
+    "intent": "FACILITIES",
+    "entities": ["pool", "swimming"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Facilities",
+    "question": "What are the gym/fitness center hours?",
+    "answer": "Our fitness center is open 24 hours a day, 7 days a week, exclusively for hotel guests. It is equipped with cardio machines, free weights, resistance equipment, and yoga mats. Personal training sessions can be arranged through the concierge.",
+    "intent": "FACILITIES",
+    "entities": ["gym", "fitness", "hours"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Facilities",
+    "question": "Do you have a spa?",
+    "answer": "Yes, our full-service spa is open daily from 9:00 AM to 9:00 PM. Services include massages, facials, body treatments, and wellness therapies. Appointments are recommended and can be made through the concierge or by calling extension 7.",
+    "intent": "FACILITIES",
+    "entities": ["spa", "massage"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Facilities",
+    "question": "Is there a business center?",
+    "answer": "Yes, our Business Center is open 24 hours and provides complimentary high-speed internet, printing, scanning, and faxing services. Private meeting rooms are available for rental. Contact the concierge to book a meeting room.",
+    "intent": "FACILITIES",
+    "entities": ["business_center", "printing"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Transportation",
+    "question": "Do you provide airport transfers?",
+    "answer": "Yes, we offer airport transfer services. Limousine and sedan options are available. Please contact the concierge at least 24 hours in advance to arrange a transfer. Charges apply based on vehicle type and distance.",
+    "intent": "TRANSPORTATION",
+    "entities": ["airport", "transfer"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Transportation",
+    "question": "Is parking available?",
+    "answer": "Yes, we offer both valet parking and self-parking in our underground garage. Valet parking is available 24 hours at the main entrance. Overnight parking rates apply. Please speak with the concierge for current pricing.",
+    "intent": "TRANSPORTATION",
+    "entities": ["parking", "valet"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Transportation",
+    "question": "Can you arrange a taxi or ride service?",
+    "answer": "Yes, our concierge can arrange taxi service, private car, or assist you with rideshare app setup. Please contact the front desk or concierge team, and we will arrange transportation within minutes.",
+    "intent": "TRANSPORTATION",
+    "entities": ["taxi", "transportation"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Policies",
+    "question": "What is your cancellation policy?",
+    "answer": "Our standard cancellation policy requires cancellation at least 24 hours before the scheduled check-in date for a full refund. Reservations cancelled within 24 hours may be subject to a one-night cancellation fee. Specific rates and packages may have different terms.",
+    "intent": "BOOKING",
+    "entities": ["cancellation", "refund"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Policies",
+    "question": "Are pets allowed?",
+    "answer": "We are a pet-friendly hotel. Small pets (under 25kg) are welcome in designated pet-friendly rooms. A pet fee applies per stay. Please inform us at booking that you are bringing a pet. Guide dogs and service animals are always welcome at no charge.",
+    "intent": "HOTEL_INFO",
+    "entities": ["pets", "policy"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Policies",
+    "question": "Is the hotel smoke-free?",
+    "answer": "Our hotel is entirely smoke-free. Smoking is prohibited in all rooms, restaurants, common areas, and indoor facilities. A designated outdoor smoking area is available near the main entrance. A cleaning fee may apply if smoking occurs in rooms.",
+    "intent": "HOTEL_INFO",
+    "entities": ["smoking", "policy"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Accessibility",
+    "question": "Do you have accessible rooms?",
+    "answer": "Yes, we have fully accessible rooms designed for guests with mobility needs, including roll-in showers, grab bars, lower bed height, and visual alarms. Please request an accessible room at the time of booking to ensure availability.",
+    "intent": "ACCESSIBILITY",
+    "entities": ["accessible", "wheelchair", "disability"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Billing",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit cards (Visa, Mastercard, American Express, Discover), debit cards, and contactless payments. Cash payments are also accepted. A credit card is required at check-in for incidentals. Your final bill can be reviewed and checked out via the TV or at the front desk.",
+    "intent": "BILLING",
+    "entities": ["payment", "credit_card"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Billing",
+    "question": "Can I get an invoice for my stay?",
+    "answer": "Yes, a detailed invoice will be provided at check-out. You can also request a copy at any time from the front desk. Electronic invoices can be emailed to you. For corporate billing arrangements, please contact our accounts department.",
+    "intent": "BILLING",
+    "entities": ["invoice", "receipt", "billing"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Concierge",
+    "question": "Can you recommend local restaurants?",
+    "answer": "Absolutely! Our concierge team has curated a selection of top local restaurants for all tastes and budgets. Please visit the concierge desk in the lobby or ask the Hotel Concierge AI for personalized recommendations based on your preferences.",
+    "intent": "CONCIERGE",
+    "entities": ["restaurant", "local", "recommendation"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Concierge",
+    "question": "What tourist attractions are nearby?",
+    "answer": "Our hotel is conveniently located near many popular attractions. Our concierge can provide maps, arrange guided tours, book show tickets, and recommend the best local experiences. Please visit the concierge desk or ask us for more details.",
+    "intent": "CONCIERGE",
+    "entities": ["attractions", "tourist", "tours"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Lost & Found",
+    "question": "I lost something in the hotel. Who do I contact?",
+    "answer": "Please contact our Lost & Found department at the front desk or call extension 0. Provide a description of the lost item and when/where it was last seen. Lost items are kept securely for 30 days. We will make every effort to locate and return your belongings.",
+    "intent": "LOST_FOUND",
+    "entities": ["lost", "found", "item"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Maintenance",
+    "question": "My air conditioning is not working.",
+    "answer": "We apologize for the inconvenience. Please report AC issues through the Hotel Concierge or call maintenance at extension 4. A technician will be dispatched to your room within 30 minutes. If the issue cannot be resolved quickly, we will arrange a room change.",
+    "intent": "MAINTENANCE",
+    "entities": ["ac", "air_conditioning", "maintenance"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Maintenance",
+    "question": "There is a problem with my shower.",
+    "answer": "We're sorry about the inconvenience. Please report plumbing issues through the Hotel Concierge or by calling extension 4. Our maintenance team will respond within 20-30 minutes. If the issue is serious, we will arrange an alternative room for you.",
+    "intent": "MAINTENANCE",
+    "entities": ["shower", "plumbing", "maintenance"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Maintenance",
+    "question": "My TV is not working.",
+    "answer": "We apologize for the inconvenience. Please try restarting the TV using the remote control. If the issue persists, report it through the Hotel Concierge or call maintenance at extension 4. A technician will be sent to your room promptly.",
+    "intent": "MAINTENANCE",
+    "entities": ["tv", "television", "maintenance"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Hotel Information",
+    "question": "Where is the hotel located?",
+    "answer": "Our hotel is centrally located in the heart of the city, providing easy access to business districts, shopping centers, and tourist attractions. Our address and directions are available at the front desk and on our website.",
+    "intent": "HOTEL_INFO",
+    "entities": ["location", "address"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Hotel Information",
+    "question": "Does the hotel have a concierge desk?",
+    "answer": "Yes, our concierge desk is located in the main lobby and is staffed 24 hours a day. Our concierge team can assist with restaurant reservations, tour bookings, transportation, local recommendations, and all special requests.",
+    "intent": "HOTEL_INFO",
+    "entities": ["concierge"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Hotel Information",
+    "question": "What languages does the hotel staff speak?",
+    "answer": "Our front desk and concierge team are multilingual. Our staff speaks English, Spanish, French, Arabic, Hindi, and Mandarin. Translation services are available for other languages. Please let us know your preference and we will accommodate you.",
+    "intent": "HOTEL_INFO",
+    "entities": ["language", "staff"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Rooms",
+    "question": "Is there a minibar in the room?",
+    "answer": "Yes, all rooms are stocked with a minibar featuring a selection of beverages and snacks. Items consumed will be charged to your room account. The minibar is restocked daily during housekeeping. Please inform us of any dietary restrictions.",
+    "intent": "ROOM_INFORMATION",
+    "entities": ["minibar", "beverages"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Rooms",
+    "question": "How do I control the room temperature?",
+    "answer": "Each room has an individual climate control system with a digital thermostat. You can adjust the temperature using the thermostat panel near the main light switches. The AC and heating can be controlled independently. If you experience any issues, please contact maintenance.",
+    "intent": "ROOM_INFORMATION",
+    "entities": ["temperature", "thermostat", "ac"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Facilities",
+    "question": "Is there a laundry service?",
+    "answer": "Yes, we offer same-day dry cleaning and laundry service. Collect the laundry bag from your room closet, fill in the laundry list form, and hang the bag on your door before 9:00 AM for same-day return. Express service is available for an additional fee.",
+    "intent": "FACILITIES",
+    "entities": ["laundry", "dry_cleaning"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Safety & Security",
+    "question": "How do I use the in-room safe?",
+    "answer": "The electronic safe is located in the wardrobe area of your room. To set a personal code: press the LOCK button, enter your 4-8 digit code, and press LOCK again. To open, enter your code and press OPEN. If you forget your code, please contact the front desk.",
+    "intent": "ROOM_INFORMATION",
+    "entities": ["safe", "security"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Check-In / Check-Out",
+    "question": "Can I store my luggage after check-out?",
+    "answer": "Yes, complimentary luggage storage is available for guests before check-in and after check-out. Please bring your luggage to the front desk or contact the concierge. Luggage can be stored for up to 24 hours on the day of departure.",
+    "intent": "CHECK_IN_CHECKOUT",
+    "entities": ["luggage", "storage"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Booking",
+    "question": "How do I modify my reservation?",
+    "answer": "Reservation modifications can be made through the front desk, by contacting reservations at the hotel, or through the original booking platform. Changes are subject to availability and may be subject to rate adjustments. Please contact us at least 24 hours before your arrival.",
+    "intent": "BOOKING",
+    "entities": ["reservation", "modify"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Dining",
+    "question": "Can I order food to my room?",
+    "answer": "Yes, 24-hour room service is available. To order, dial extension 5 from your room phone, or use the Hotel Concierge. Our full dining menu is available from 6:00 AM to midnight, with a limited overnight menu. Delivery typically takes 30 minutes.",
+    "intent": "DINING",
+    "entities": ["room_service", "food_delivery"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Transportation",
+    "question": "Is there a hotel shuttle service?",
+    "answer": "We offer a complimentary shuttle service to and from the airport at scheduled times. Please check with the concierge for the current shuttle schedule. Private car and taxi services are also available on request 24 hours a day.",
+    "intent": "TRANSPORTATION",
+    "entities": ["shuttle", "airport"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Facilities",
+    "question": "Do you have a kids club or children's activities?",
+    "answer": "Yes, our Kids Club is open daily from 9:00 AM to 7:00 PM for children aged 4-12. Activities include arts and crafts, games, swimming lessons, and movie time. The service is complimentary for hotel guests. Please register your children at the front desk.",
+    "intent": "FACILITIES",
+    "entities": ["kids", "children", "family"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Housekeeping",
+    "question": "How do I request room cleaning?",
+    "answer": "Housekeeping is available daily between 9:00 AM and 5:00 PM. To request cleaning, please place the 'Please Make Up Room' sign on your door, call extension 3, or request through the Hotel Concierge. Same-day service can be arranged by calling before noon.",
+    "intent": "HOUSEKEEPING",
+    "entities": ["room_cleaning", "housekeeping"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Facilities",
+    "question": "Is there a conference room available?",
+    "answer": "Yes, we have multiple conference rooms available for meetings and events, accommodating 10 to 200 guests. Rooms are equipped with AV equipment, high-speed internet, and catering services. Please contact the events team for availability and pricing.",
+    "intent": "FACILITIES",
+    "entities": ["conference", "meeting_room", "events"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Policies",
+    "question": "What is the hotel's noise policy?",
+    "answer": "To ensure a comfortable experience for all guests, quiet hours are observed from 10:00 PM to 8:00 AM. Excessive noise during these hours may result in a courtesy call from the front desk. We appreciate your cooperation in maintaining a peaceful environment.",
+    "intent": "HOTEL_INFO",
+    "entities": ["noise", "quiet_hours"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Front Desk & Reception",
+    "question": "What is the contact number or phone number of the reception or front desk?",
+    "answer": "You can reach the reception and front desk 24/7 by dialing 0 from your in-room phone. For external calls, our direct hotel number is +1 (800) 555-4683.",
+    "intent": "HOTEL_INFO",
+    "entities": ["reception", "phone_number", "contact"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Concierge",
+    "question": "What are the nearest tourist destinations, attractions, and places to visit?",
+    "answer": "Popular nearby destinations include: 1) City Central Park (10-minute walk) with botanical gardens and walking trails, 2) Grand Arts Museum (1.5 miles), 3) Historic Waterfront Promenade (2 miles) with boat cruises and sunset dining, and 4) Old Town Market Square (1.2 miles) featuring local boutiques. The concierge desk in the lobby can provide maps and book tickets.",
+    "intent": "CONCIERGE",
+    "entities": ["tourist", "attractions", "sightseeing"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Facilities & Events",
+    "question": "How can I guide me organize or book corporate parties, banquets, and business events?",
+    "answer": "We offer 4 dedicated banquet and event spaces accommodating 10 to 350 guests, equipped with 4K projectors, high-speed Wi-Fi, and custom catering menus. Our Events Coordinator can tailor seating, decor, and audio-visual setups. Contact events@hotelconcierge.com or dial '0' from your room phone to get started.",
+    "intent": "FACILITIES",
+    "entities": ["corporate", "party", "events", "banquet"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Concierge",
+    "question": "Where is the nearest police station or emergency services located?",
+    "answer": "The nearest police station is the Central District Precinct at 124 Main Street (approx. 0.8 miles away, non-emergency line: 555-0199). For any urgent in-house security needs, please dial '0' immediately to reach hotel security.",
+    "intent": "CONCIERGE",
+    "entities": ["police_station", "emergency_services", "local_info"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Concierge",
+    "question": "What are the best suggestions or tips for a first-time guest visiting the hotel?",
+    "answer": "Welcome! For first-time guests, we recommend: 1) Enjoying the complimentary breakfast buffet in the Grand Dining Room (6:30 AM - 10:30 AM), 2) Visiting the Rooftop Lounge on the 12th floor for craft cocktails and skyline views, 3) Relaxing at the heated infinity pool and spa on Level 3, and 4) Connecting to complimentary high-speed Wi-Fi (Network: HotelGuest, Password: Welcome2024). Dial '0' anytime for assistance.",
+    "intent": "CONCIERGE",
+    "entities": ["first_time_guest", "welcome", "recommendations"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Food & Dining",
+    "question": "What is on the hotel menu and what food suggestions or restaurant options do you have?",
+    "answer": "Our Grand Dining Room serves international cuisine daily. Chef's top recommendations include Pan-Seared Atlantic Salmon with lemon-dill risotto, Prime Aged Wagyu Ribeye Steak, and Wild Mushroom Truffle Fettuccine. 24-hour in-room dining is also available by dialing extension 2.",
+    "intent": "DINING",
+    "entities": ["menu", "food_suggestion", "dining"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Concierge",
+    "question": "What can I do for a free evening or if I have only one evening here?",
+    "answer": "For a wonderful evening, we recommend: 1) Sunset cocktails at the 12th Floor Rooftop Lounge with panoramic skyline views, 2) Candlelit dinner in our Grand Dining Room (or the Historic Waterfront Promenade, 10 min taxi), and 3) A relaxed evening walk through Old Town Market Square. Dial '0' for table reservations.",
+    "intent": "CONCIERGE",
+    "entities": ["free_evening", "evening_plans", "night_activities"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Facilities & Dining",
+    "question": "Where should I meet a visitor or friend coming over to the hotel, and what can we do for a few hours?",
+    "answer": "The Lobby Lounge & Coffee Bar is the perfect meeting spot for casual conversations, specialty coffee, and afternoon tea. You can also head up to the 12th Floor Rooftop Terrace for scenic drinks, or share lunch in the Grand Dining Room. Visitors are welcome in all hotel lounges and restaurants.",
+    "intent": "FACILITIES",
+    "entities": ["meeting_spot", "visitor", "friends", "lobby_lounge"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Food & Dining",
+    "question": "I want to surprise my guest or arrange something nice from the hotel restaurant or room service.",
+    "answer": "Our concierge and culinary team can arrange delightful surprises: chilled champagne and chocolate-covered strawberries delivered to your room, celebration cakes, flower arrangements, or a reserved candlelit table with custom chef tasting menus. Dial '0' to coordinate with our Guest Experience Manager.",
+    "intent": "DINING",
+    "entities": ["surprise", "special_arrangement", "celebration", "amenity"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Concierge",
+    "question": "Where should I go if I only have 2 or 3 hours, or want to be back before dinner?",
+    "answer": "For a quick 2–3 hour outing, visit City Central Park (10-minute walk) for peaceful botanical gardens, or take a 5-minute taxi to Old Town Market Square (1.2 miles) for local boutique shopping and cafés. Both are close, relaxing, and very easy to return from before dinner.",
+    "intent": "CONCIERGE",
+    "entities": ["short_trip", "3_hours", "quick_outing", "before_dinner"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Concierge",
+    "question": "What comfortable activities or sightseeing can I do nearby when travelling with parents or family?",
+    "answer": "For relaxed, comfortable outings with parents: 1) The Grand Arts Museum (1.5 miles) offers step-free, fully accessible galleries and seating, 2) The Historic Promenade Scenic Harbor Cruise provides covered, seated boat tours, and 3) City Central Park has paved walking paths and shaded benches. The concierge can arrange direct door-to-door transportation.",
+    "intent": "CONCIERGE",
+    "entities": ["family", "parents", "accessible", "comfortable_sightseeing"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Food & Dining",
+    "question": "We don't want a full meal, just something light, snacks, tapas, or drinks. What can we get?",
+    "answer": "For light fare and snacks, the Lobby Bistro and Rooftop Lounge serve artisan flatbreads, gourmet cheese and charcuterie boards, mezze hummus platters, crispy calamari, and fresh market salads from 11:00 AM to 11:00 PM. Light bites are also available 24/7 on room service.",
+    "intent": "DINING",
+    "entities": ["light_meal", "snacks", "tapas", "bistro"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Food & Dining",
+    "question": "Can you suggest vegetarian, vegan, or non-spicy food options from the hotel restaurant?",
+    "answer": "We have delicious vegetarian and non-spicy options! Popular mild selections include: Wild Mushroom & Truffle Fettuccine, Roasted Mediterranean Quinoa Bowl with avocado, Margherita Flatbread, and Pan-Seared Salmon with lemon-dill butter. Our chefs are happy to customize any dish to be mild, vegetarian, or gluten-free.",
+    "intent": "DINING",
+    "entities": ["vegetarian", "non_spicy", "vegan", "dietary"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Check-In / Check-Out",
+    "question": "I am leaving early tomorrow morning. Is there anything I need to arrange tonight or for early departure?",
+    "answer": "To ensure a seamless early departure: 1) Review and settle your billing folio tonight at the front desk or via express checkout, 2) Pre-schedule an early morning airport taxi with the concierge, 3) Request a wake-up call, and 4) Order a Grab-and-Go breakfast box (available from 5:00 AM) if leaving before breakfast opening.",
+    "intent": "CHECK_IN_CHECKOUT",
+    "entities": ["early_departure", "leaving_early", "checkout_prep"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Facilities & Events",
+    "question": "I have a small team visiting next week. Can the hotel help arrange meeting spaces, team meals, or arrangements?",
+    "answer": "Yes! Our Events & Groups team can reserve private boardrooms with 4K screens, schedule coffee breaks, coordinate group lunches or dinners in the Grand Dining Room, and organize group airport transfers. Please contact events@hotelconcierge.com or dial '0' from your room.",
+    "intent": "FACILITIES",
+    "entities": ["team", "group_booking", "client_meeting", "team_arrangements"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Concierge",
+    "question": "What local, authentic, or non-touristy spots can you suggest near the hotel?",
+    "answer": "To experience the area like a local: 1) Old Town Artisan Alley (1.2 miles) for independent specialty roasters and pottery shops, 2) Riverside Fish Market for casual fresh seafood dining, and 3) The Canal Walkway for historic architecture. Concierge can provide a curated local neighborhood guide.",
+    "intent": "CONCIERGE",
+    "entities": ["local_spots", "non_touristy", "authentic", "hidden_gems"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Billing",
+    "question": "Can you send the bill copy to my email or explain extra charges on my room folio?",
+    "answer": "Our front desk and accounts team can email an itemized copy of your room folio directly to your registered email address. For any questions regarding room charges or to verify your billing details, please dial '0' to connect with the Front Desk Billing Specialist.",
+    "intent": "BILLING",
+    "entities": ["bill_copy", "folio", "extra_charge", "invoice_email"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Front Desk & Security",
+    "question": "I lost or forgot an item in the hotel (like a watch, phone, or jacket). How does Lost & Found work?",
+    "answer": "Our 24/7 Lost & Found registry is managed by Hotel Security and the Front Desk. All retrieved items are safely stored and logged. Please dial '0' from your room to describe your lost item, location where you left it, and your contact number.",
+    "intent": "LOST_FOUND",
+    "entities": ["lost_found", "lost_item", "watch", "forgotten"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Policies",
+    "question": "The room next door is noisy or playing loud music. How do you handle noise complaints?",
+    "answer": "We enforce strict quiet hours between 10:00 PM and 8:00 AM. If you are disturbed by noise or loud music from neighboring rooms, please dial '0' immediately. Our Duty Manager and security team will intervene right away to resolve the disturbance.",
+    "intent": "COMPLAINT",
+    "entities": ["noise_complaint", "loud_music", "quiet_hours"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Food & Dining",
+    "question": "Is breakfast free or included with the room rate?",
+    "answer": "Complimentary full buffet breakfast (6:30 AM – 10:30 AM in the Grand Dining Room) is included with all direct bookings, member stays, and suite reservations. If your rate does not include breakfast, it can be enjoyed for $28 per guest, or ordered via room service.",
+    "intent": "DINING",
+    "entities": ["breakfast_inclusion", "free_breakfast", "breakfast_cost"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Food & Dining",
+    "question": "Is food complimentary or free, and what meals are included?",
+    "answer": "Full buffet breakfast (6:30 AM – 10:30 AM in the Grand Dining Room) is complimentary with all direct bookings, suite stays, and member packages. Other food options (lunch, dinner, bar snacks, and 24/7 room service) are available à la carte from our restaurant menu.",
+    "intent": "DINING",
+    "entities": ["complimentary_food", "food_included", "dining_cost"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Check-In / Check-Out",
+    "question": "What documents are required to check in, and can I check in late at 6 PM or evening?",
+    "answer": "Yes, late check-in at 6:00 PM (or anytime 24/7) is fully supported. For check-in, please present: 1) A valid government-issued photo ID or passport, 2) A credit/debit card for room charges and incidental deposit ($50/night), and 3) Your booking confirmation number.",
+    "intent": "CHECK_IN_CHECKOUT",
+    "entities": ["checkin_documents", "id_required", "late_checkin_6pm"],
+    "source": "hotel_faq"
+  },
+  {
+    "category": "Bookings & Offers",
+    "question": "Are there any offers, discounts, or promotions available for stays?",
+    "answer": "Under the updated test policy, direct bookings made at least 3 days before arrival receive 10% off the room rate, and direct bookings for Friday through Sunday receive 15% off the room rate, subject to availability and offer terms.",
+    "intent": "BOOKING",
+    "entities": ["offers", "discounts", "promotions", "packages"],
+    "source": "hotel_faq"
+  }
+]
